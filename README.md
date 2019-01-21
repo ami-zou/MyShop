@@ -16,7 +16,7 @@ For each product, fetch the details using `product_id`:
 ![Page2](https://github.com/ami-zou/MyShop/blob/master/Collection%20Details%20Page%20-%20Screenshot.png)
 
 
-## Project 2: The core logic for a marketplace
+## Project 2: The core logic of a marketplace
 - Product: contains all the product related information, and can be purchased:
 1. When being added to the shopping cart, check its currently inventory and throw an error if it can be put on hold.
 2. When being purchased, check its currently inventory and return truth if it can be successfully purchased.
