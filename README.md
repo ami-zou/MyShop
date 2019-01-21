@@ -15,6 +15,11 @@ For each product, fetch the details using `product_id`:
 
 ![Page2](https://github.com/ami-zou/MyShop/blob/master/Collection%20Details%20Page%20-%20Screenshot.png)
 
+### Testing
+1. Git clone this project
+2. Open it in `xcode`
+3. Run on a simulator (I programmed it on an iPhone XR)
+
 
 ## Project 2: The core logic of a marketplace
 - Product: contains all the product related information, and can be purchased:
@@ -26,3 +31,9 @@ For each product, fetch the details using `product_id`:
 2. Add products into the cart and calculate the `total_charge`
 3. When `complete` is called, check if it is possible to purchase all the products - send a note and remove the item if it can't be purchased
 4. When products are successfully purchased, decrease the inventory amount, charge the user, and reset the cart back to empty
+
+### Testing
+1. Git clone this project
+2. Open `marketplace.rb` in a text editor
+3. Change the product and purchase inputs
+4. Run and check the printed statements
