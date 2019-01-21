@@ -1,10 +1,20 @@
 # MyShop
 ## Project 1: An iOS App for fetching and displaying product data
 ### Custom Collection Page
+Fetches data from Shopify API and displays a list of the available collections:
+
 ![Page1](https://github.com/ami-zou/MyShop/blob/master/Custom%20Collections%20list%20page%20-%20Screenshot.png)
 
+
 ### Collection Details Page
+When a collection is selected, fetch and display the product details of this collection using `collection_id`.
+For each product, fetch the details using `product_id`:
+1. Pass the id and other info between two view controllers using a segue
+2. For each product, iterate through its `variants` to calculate the total `inventory_quantity` of this product
+3. Adjust the display to display all the products info
+
 ![Page2](https://github.com/ami-zou/MyShop/blob/master/Collection%20Details%20Page%20-%20Screenshot.png)
+
 
 ## Project 2: The core logic for a marketplace
 - Product: contains all the product related information, and can be purchased:
